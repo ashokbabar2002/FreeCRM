@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="103958" started-at="2018-05-31T02:39:42Z" finished-at="2018-05-31T02:41:26Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="103958" started-at="2018-05-31T02:39:42Z" finished-at="2018-05-31T02:41:26Z">
+      <class name="com.crm.qa.testcases.LoginCRMtest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.qa.testcases.LoginCRMtest@23ceabc1]" name="login" is-config="true" duration-ms="68147" started-at="2018-05-31T08:09:42Z" finished-at="2018-05-31T08:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginCRMtest@23ceabc1]" name="logintest" duration-ms="30519" started-at="2018-05-31T08:10:55Z" data-provider="getdata" finished-at="2018-05-31T08:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.crm.qa.testcases.LoginCRMtest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
